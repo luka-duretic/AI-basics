@@ -5,7 +5,7 @@ Implementation some of basic algorithms in Machine Learning field.
 ### Overview
 This project implements several state space search algorithms and heuristic evaluation methods used in artificial intelligence and problem solving. It analyzes the complexity of various blind and heuristic search algorithms. Used input data are about shortest path from Pula to Buzet, places in Croatia.
 
-### Implemented Algorithms
+### Key Features
 Breadth-First Search (BFS) - explores nodes level by level, ensuring the shortest path in terms of the number of steps
   - algorithm is complete and optimal
   - exponential time and space complexity
@@ -18,8 +18,7 @@ A* Search – uses a heuristic function to guide the search towards the goal mor
   - algorithm is complete
   - better time and space complexity considering algorithms above
 
-### Heuristic Analysis
-The project includes methods to check:
+Heuristic Analysis - the project includes methods to check
   - Optimistic (Admissible) Heuristic – Ensures that the heuristic never overestimates the true cost to the goal.
   - Consistent (Monotonic) Heuristic – Ensures the heuristic satisfies the triangle inequality, which is required for A* to be both complete and optimal.
 
