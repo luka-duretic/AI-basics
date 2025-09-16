@@ -1,7 +1,7 @@
 package ui;
 
-import java.lang.Math;		        // za entropiju, tj. racunanje log2
-import java.math.BigDecimal;        // za zaokruzivanje rezultata na 4 i 5 decimala
+import java.lang.Math;		       
+import java.math.BigDecimal;        
 import java.math.RoundingMode;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -207,4 +207,5 @@ public class DecisionTree {
         max.sort(String::compareTo);
         return max.get(0);
     }
+
 }
