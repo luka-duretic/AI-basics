@@ -1,7 +1,7 @@
 package ui;
 
 import java.io.File;
-import java.io.IOException;														// potrebna jdk-23
+import java.io.IOException;														
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
